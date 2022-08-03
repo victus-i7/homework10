@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+
+
+}
+
+.oppen {
+    background-color: #004B51;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.ter {
+    margin-top: 100px;
+    margin-left: -300px;
+    margin-bottom: 50px;
+}
+
+.car {
+    height: 250px;
+    background-color: #01363A;
+
+
+}
+
+.car .car__ul .car__li:nth-child(3) {
+    font-size: 14px;
+
+
+}
+
+.car .car__ul .car__li:nth-child(2) {
+    color: #7FBCBF;
+
+}
+
+.car__btn3 {
+    margin: 55px auto;
+    width: 55px;
+    height: 55px;
+    background-color: #85D1CF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+}
+
+.car__btn1 {
+    margin: 55px auto;
+    width: 55px;
+    height: 55px;
+    background-color: #85D1CF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+}
+
+.car__btn2 {
+
+    margin: 45px auto;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    background-color: #85D1CF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+
+
+.car .car__ul .car__li:nth-child(1) {
+    margin-top: 10px;
+    color: #7FBCBF;
+}
+
+.img {
+
+    width: 80px;
+    border-radius: 100%;
+    border: solid white;
+}
+
+.logo {
+    width: 20px;
+
+
+}
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+    .car__btn2 {
+
+        margin: 25px auto;
+        z-index: 1;
+        width: 55px;
+        height: 55px;
+        background-color: #85D1CF;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+
+
+    .car__btn2 {
+
+        margin: -20px auto;
+        z-index: 0;
+        width: 55px;
+        height: 55px;
+        background-color: #85D1CF;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+
+    .car__btn1 {
+        margin: 45px auto;
+        width: 55px;
+        height: 55px;
+        background-color: #85D1CF;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+
+    }
+}
